@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricardo Bertolin - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ricardo Bertolin</h1>
+    <p>Desenvolvedor / Engenheiro de Computação</p>
+    <nav>
+      <button onclick="setLanguage('pt')">🇧🇷 PT</button>
+      <button onclick="setLanguage('en')">🇺🇸 EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- RESUMO -->
+    <section id="summary">
+      <h2 data-pt="Resumo" data-en="Summary">Resumo</h2>
+      <p data-pt="Desenvolvedor com 4 anos de experiência em desenvolvimento fullstack e bancos de dados. Sólida base em arquitetura de software, CI/CD e deploy em nuvem, com atuação em integração de modelos de machine learning usando APIs e contêineres. Experiência em projetos que vão de machine learning aplicado a dados ao desenvolvimento de software para locomotivas elétricas, além de pesquisas acadêmicas premiadas internacionalmente. Domínio em Python, C/C#, Java e SQL, aliado a forte capacidade de trabalho em equipe e entrega de soluções inovadoras com impacto real em projetos acadêmicos e industriais."
+         data-en="Developer with 4 years of experience in fullstack development and databases. Strong foundation in software architecture, CI/CD and cloud deployment, with experience integrating machine learning models using APIs and containers. Worked on projects ranging from data-driven machine learning to software development for electric locomotives, in addition to internationally awarded academic research. Skilled in Python, C/C#, Java and SQL, with strong teamwork abilities and delivery of innovative solutions with real impact in academic and industrial projects.">
+      </p>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills">
+      <h2 data-pt="Habilidades" data-en="Skills">Habilidades</h2>
+      <ul>
+        <li>Python | C | C# | Java | SQL | Machine Learning</li>
+        <li>JavaScript | MLOps | APIs | Docker | Kubernetes | AWS</li>
+        <li>Desenvolvimento Fullstack | Deploy de Aplicações | CI/CD</li>
+      </ul>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="education">
+      <h2 data-pt="Formação Acadêmica" data-en="Education">Formação Acadêmica</h2>
+      <p data-pt="<strong>Mestrado em Engenharia de Produção e Sistemas</strong> – PUCPR, 2025-2027"
+         data-en="<strong>Master's in Production and Systems Engineering</strong> – PUCPR, 2025-2027"></p>
+      <p data-pt="<strong>Bacharelado em Engenharia de Computação</strong> – PUCPR, 2020-2025"
+         data-en="<strong>Bachelor in Computer Engineering</strong> – PUCPR, 2020-2025"></p>
+    </section>
+
+    <!-- EXPERIÊNCIAS -->
+    <section id="experience">
+      <h2 data-pt="Experiências Profissionais" data-en="Professional Experience">Experiências Profissionais</h2>
+
+      <div class="job">
+        <h3 data-pt="Desenvolvedor de Aplicação | Progress Rail – Curitiba, Brasil (2024 – Presente)"
+            data-en="Application Developer | Progress Rail – Curitiba, Brazil (2024 – Present)"></h3>
+        <p data-pt="Desenvolvimento Fullstack de software para locomotivas elétricas, com foco em soluções robustas e escaláveis. Participação em projetos de integração de sistemas e otimização de processos internos, utilizando linguagens como Python, C# e C, além de atuação em CI/CD e deploy de versionamento."
+           data-en="Fullstack software development for electric locomotives, focusing on robust and scalable solutions. Participated in system integration projects and internal process optimization, using Python, C# and C, as well as CI/CD and deployment practices."></p>
+      </div>
+
+      <div class="job">
+        <h3 data-pt="Estagiário em Desenvolvimento de Perícia | Polícia Federal – Curitiba, Brasil (2022 – 2023)"
+            data-en="Intern – Forensics Development | Federal Police – Curitiba, Brazil (2022 – 2023)"></h3>
+        <p data-pt="Atuação no desenvolvimento de software de perícia criminal, utilizando Python e linguagens para front-end (HTML, CSS, JS), aplicando técnicas de análise forense. Desenvolvimento de scripts e ferramentas para automatização de tarefas e organização de dados."
+           data-en="Worked on forensic software development, using Python and front-end languages (HTML, CSS, JS), applying forensic analysis techniques. Developed scripts and tools to automate tasks and organize data."></p>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projects">
+      <h2 data-pt="Projetos Relevantes" data-en="Relevant Projects">Projetos Relevantes</h2>
+      <div class="project">
+        <h3 data-pt="Sistema de Controle para Locomotivas Elétricas"
+            data-en="Control System for Electric Locomotives"></h3>
+        <p data-pt="Desenvolvimento de software para monitoramento e análise de dados de locomotivas. Implementação de software em Python, C e C# para coleta e processamento de dados operacionais. Otimização dos processos de diagnóstico, resultando em redução de 25% no tempo de manutenção preventiva."
+           data-en="Software development for monitoring and analyzing locomotive data. Implemented Python, C and C# software for collecting and processing operational data. Optimized diagnostics processes, reducing preventive maintenance time by 25%."></p>
+      </div>
+
+      <div class="project">
+        <h3 data-pt="Sistema Web de Coleta e Visualização de Dados de Sensores"
+            data-en="Web System for Sensor Data Collection and Visualization"></h3>
+        <p data-pt="Desenvolvimento de aplicação web (JavaScript, MySQL) para coletar, armazenar e disponibilizar dados de sensores de posicionamento em tempo real, com latência inferior a 100 milisegundos."
+           data-en="Developed a web application (JavaScript, MySQL) to collect, store and provide real-time sensor positioning data, with latency under 100 milliseconds."></p>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contact">
+      <h2 data-pt="Contato" data-en="Contact">Contato</h2>
+      <p><strong>Email:</strong> <a href="mailto:ricardo_bertolin@hotmail.com">ricardo_bertolin@hotmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ricardo-bertolin" target="_blank">linkedin.com/in/ricardo-bertolin</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ricardo Bertolin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
